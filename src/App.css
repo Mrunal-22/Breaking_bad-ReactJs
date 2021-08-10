@@ -38,7 +38,7 @@ header {
 }
 
 header img {
-  width: 200px;
+  width: 250px;
 }
 
 .center {
@@ -56,22 +56,22 @@ input[type='text'] {
   padding: 10px;
   font-size: 20px;
   border: 0;
-  border-radius: 5px;
-  width: 60%;
+  border-radius: 20px;
+  width: 50%;
   margin: auto;
   outline: none;
 }
 
 .cards {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
 }
 
 .card {
   cursor: pointer;
   background-color: transparent;
-  height: 300px;
+  height: 400px;
   perspective: 1000px;
 }
 
